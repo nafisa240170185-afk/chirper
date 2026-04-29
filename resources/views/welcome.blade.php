@@ -17,7 +17,7 @@
 
 <body class="min-h-screen flex flex-col bg-gradient-to-br from-purple-200 via-purple-100 to-pink-100 font-sans">
 
-    <!-- Navbar -->
+
     <nav class="navbar bg-purple-300/70 backdrop-blur shadow-md">
         <div class="navbar-start">
             <a href="/" class="btn btn-ghost text-xl">🐦 Chirper</a>
@@ -28,11 +28,11 @@
         </div>
     </nav>
 
-    <!-- Main -->
+
     <main class="flex-1 container mx-auto px-4 py-8">
         <div class="max-w-2xl mx-auto">
 
-            <!-- Welcome Card -->
+    
             <div class="card bg-white/70 backdrop-blur shadow-lg mt-8 border border-purple-200">
                 <div class="card-body">
                     <h1 class="text-3xl font-bold">Welcome to Chirper!</h1>
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <!-- Chirps -->
+       
             @foreach ($chirps as $chirp)
                 <div class="card bg-base-100 shadow mt-8">
                     <div class="card-body">
@@ -55,7 +55,7 @@
         </div>
     </main>
 
-    <!-- Footer -->
+
     <footer class="footer footer-center p-5 bg-purple-200 text-black">
         <div>
             <p>© 2026 Chirper Built with Laravel and ❤️ by Nafisa Azahra Salsabila</p>
