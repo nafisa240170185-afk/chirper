@@ -27,6 +27,6 @@ class ChirpController extends Controller
             ]
 ];
 
-return view('home', ['chirps' => $chirps]);
+return view('welcome', ['chirps' => $chirps]);
     }
 }
